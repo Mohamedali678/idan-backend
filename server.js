@@ -6,7 +6,7 @@ app.use(cors())
 
 app.use(express.json())
 
-mongoose.connect("mongodb://127.0.0.1:27017/iDaan").then (() => {
+mongoose.connect("mongodb+srv://mohayare678:1qlbpRrCXGfUkETd@idan-cluster.yi41n.mongodb.net/").then (() => {
     console.log("Database Connected to MongoDB")
 }).catch((error) => {
     console.log(error)
